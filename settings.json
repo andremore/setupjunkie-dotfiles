@@ -1,0 +1,341 @@
+{
+    // Extensions
+    "Notes.notesLocation": "/home/andremore/repos/notes",
+    "apc.activityBar": {
+        "itemMargin": 18,
+        "size": 32
+    },
+    "apc.electron": {
+        "frame": false,
+        "titleBarStyle": "hidden"
+    },
+    "apc.header": {
+        "height": 33.5
+    },
+    "apc.listRow": {
+        "height": 21
+    },
+    // Apc
+    "apc.menubar.compact": true,
+    "apc.sidebar.titlebar": {
+        "fontSize": 12,
+        "height": 33.5
+    },
+    "apc.statusBar": {
+        "height": 27
+    },
+    "apc.stylesheet": {
+        ".title-actions .actions-container": "display: none;",
+        // ".composite.title": "display: block !important;",
+        // ".title-label": "display: none !important;",
+        // ".monaco-workbench .part.sidebar .title-actions .actions-container": "display: none !important;",
+        ".title-label h2": "visibility: hidden; position: relative;",
+        ".title-label h2:after": "visibility: visible; position: absolute; top: 0; left: 0; content: 'EXPLORER ➜'"
+    },
+    "editor.autoClosingQuotes": "always",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "never",
+        "source.organizeImports": "never"
+    },
+    "editor.cursorSurroundingLines": 8,
+    "editor.fontFamily": "JetBrains Mono, Consolas, 'Courier New', monospace",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 16,
+    "editor.inlineSuggest.enabled": true,
+    "editor.lineHeight": 26,
+    "editor.linkedEditing": true,
+    "editor.minimap.enabled": false,
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.scale": 1,
+    "editor.minimap.size": "fit",
+    "editor.renderWhitespace": "selection",
+    "editor.semanticTokenColorCustomizations": {
+        "[Dark+ Black]": {
+            "enabled": true,
+            "rules": {
+                "class": {
+                    "underline": false
+                },
+                "enum": {
+                    "underline": false
+                },
+                "function": "#d0d1a3",
+                "interface": {
+                    "underline": false
+                },
+                "namespace": {
+                    "underline": false
+                },
+                "type": {
+                    "underline": false
+                },
+                "typeParameter": {
+                    "underline": false
+                }
+            }
+        }
+    },
+    // Editor
+    "editor.stickyScroll.enabled": true,
+    "editor.tokenColorCustomizations": {
+        "[Bearded Theme feat. Melle Julie]": {
+            "textMateRules": [
+                {
+                    "scope": "keyword.control",
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "entity.name.function",
+                    "settings": {
+                        "fontStyle": "bold"
+                    }
+                },
+                {
+                    "scope": "variable.parameter",
+                    "settings": {
+                        "fontStyle": "italic"
+                    }
+                }
+            ]
+        },
+        "[Dark+ Black]": {
+            "comments": {
+                "fontStyle": "italic",
+                "foreground": "#55b45a"
+            },
+            "textMateRules": [
+                {
+                    "name": "blockComments",
+                    "scope": "comment.block",
+                    "settings": {
+                        "fontStyle": "italic",
+                        "foreground": "#55b45a"
+                    }
+                }
+            ]
+        }
+    },
+    "errorLens.enabledDiagnosticLevels": [
+        "warning",
+        "info",
+        "error",
+        "hint"
+    ],
+    "eslint.format.enable": true,
+    "explorer.compactFolders": false,
+    // "vim.useSystemClipboard": true,
+    "extensions.experimental.affinity": {
+        "vscodevim.vim": 1
+    },
+    "files.autoSave": "off",
+    "git.autofetch": true,
+    "github.copilot.enable": {
+        "*": true,
+        "markdown": false,
+        "plaintext": false,
+        "scminput": false,
+        "yaml": false
+    },
+    "githubPullRequests.pullBranch": "never",
+    "gitlens.graph.experimental.minimap.enabled": true,
+    "gitlens.graph.layout": "editor",
+    "gitlens.views.commitDetails.files.layout": "tree",
+    "gitlens.views.scm.grouped.views": {
+        "branches": true,
+        "commits": false,
+        "contributors": true,
+        "launchpad": false,
+        "remotes": true,
+        "repositories": false,
+        "searchAndCompare": false,
+        "stashes": true,
+        "tags": true,
+        "worktrees": true
+    },
+    "glassit.alpha": 255,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "pylint.args": [
+        "--disable=C0111"
+    ],
+    "react-native-tools.showUserTips": false,
+    "redhat.telemetry.enabled": false,
+    "security.workspace.trust.untrustedFiles": "open",
+    "svelte.enable-ts-plugin": true,
+    // Flow
+    "terminal.integrated.defaultProfile.windows": "Git Bash",
+    "terminal.integrated.gpuAcceleration": "off",
+    // Languages
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "vim.easymotion": true,
+    // Vim
+    "vim.foldfix": true,
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-p>": false
+    },
+    "vim.highlightedyank.enable": true,
+    "vim.incsearch": true,
+    "vim.leader": "<space>",
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "<C-u>"
+            ],
+            "commands": [
+                "cursorPageUp"
+            ]
+        },
+        {
+            "before": [
+                "<C-d>"
+            ],
+            "commands": [
+                "cursorPageDown"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "e"
+            ],
+            "commands": [
+                "workbench.view.explorer"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "b"
+            ],
+            "commands": [
+                "workbench.action.toggleSidebarVisibility"
+            ]
+        },
+        {
+            "before": [
+                "H"
+            ],
+            "commands": [
+                "workbench.action.previousEditor"
+            ]
+        },
+        {
+            "before": [
+                "L"
+            ],
+            "commands": [
+                "workbench.action.nextEditor"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "u"
+            ],
+            "commands": [
+                "workbench.action.splitEditorUp"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "d"
+            ],
+            "commands": [
+                "workbench.action.splitEditorDown"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "l"
+            ],
+            "commands": [
+                "workbench.action.splitEditorLeft"
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "s",
+                "r"
+            ],
+            "commands": [
+                "workbench.action.splitEditorRight"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "leader",
+                "f"
+            ],
+            "commands": [
+                "editor.action.formatDocument"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "="
+            ],
+            "commands": [
+                "workbench.action.increaseViewSize"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "-"
+            ],
+            "commands": [
+                "workbench.action.decreaseViewSize"
+            ]
+        },
+        {
+            "before": [
+                "leader",
+                "o",
+                "i"
+            ],
+            "commands": [
+                "editor.action.organizeImports"
+            ]
+        }
+    ],
+    "vim.smartRelativeLine": true,
+    "vscode-note.notespath": "~/home/andremore/repos/",
+    "window.commandCenter": false,
+    // Window
+    // "window.titleBarStyle": "custom",
+    "window.customTitleBarVisibility": "never",
+    "window.density.editorTabHeight": "compact",
+    "window.menuBarVisibility": "compact",
+    "window.openFilesInNewWindow": "off",
+    "window.openFoldersInNewWindow": "on",
+    "window.title": " ",
+    "window.titleBarStyle": "native",
+    "workbench.colorCustomizations": {
+        "[Dark+ Black]": {
+            "tab.activeBorderTop": "#ffef0a"
+        }
+    },
+    "workbench.colorTheme": "Bearded Theme feat. Melle Julie",
+    "workbench.editor.editorActionsLocation": "hidden",
+    "workbench.editor.enablePreview": false,
+    "workbench.iconTheme": "material-icon-theme",
+    "workbench.layoutControl.enabled": false,
+    // Workbench
+    "workbench.sideBar.location": "right",
+    "yaclock.prefix": "",
+    "zenMode.hideLineNumbers": false,
+    "zenMode.hideStatusBar": false
+}
